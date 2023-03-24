@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noutăți Casa de Cultură</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" href="../images/noutate.jpg" />
+
+    <link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer> </script>
+
+    <script src="../js/lightbox.js" defer> </script>
+    <script src="../js/main.js" defer> </script>
+
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../images/1.JPG"> </a>
+
+        <navbar class="nav" id="navbar">
+            <a onclick="mobile()" href="../index.html#despre">Despre noi</a>
+            <a onclick="mobile()" href="../index.html#galerie">Galerie</a>
+            <a onclick="mobile()" href="../index.html#contacte">Contacte</a>
+
+            <a href="./activitate.html">Activitate</a>
+            <!-- <a href="./noutati.html">Noutăți</a> -->
+            <a href="./biblioteca.html">Biblioteca</a>
+            <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
+        </navbar>
+
+    </header>
+    <main>
+        <section id="noutati" data-aos="fade-in">
+            <div class="container-noutati">
+                <h1 class="centered">Noutăți</h1>
+                <div class="noutate">
+                    <h2 class="centered">Proiecte </h2>
+                    <span class="data"> 2022-2023 </span>
+                    <img src="../images/lab.jpg">
+                  
+                </div>
+                <div class="noutate">
+                    <h2 class="centered"> Concursuri școlare</h2>
+                    <span class="data"> 2022-2023 </span>
+                    <img src="../images/concurs.jpg">
+                    <a target="_blank" href="../resources/concurs.docx">📄 Oferta de participare la olimpiada Raională-2022.docx</a>
+                </div>
+                <div class="noutate">
+                    <h2 class="centered"> Activități extracurriculare </h2>
+                    <span class="data"> 2022 -2023 </span>
+                   
+                    <img src="../images/106.jpg">
+                    <img src="../images/107.jpg">
+                    <img src="../images/108.jpg">
+                    <img src="../images/114.JPG">
+                    <img src="../images/115.JPG">
+                </div>
+                <div class="noutate">
+                    <h2 class="centered">Înscrierea în clasa 1,clasa 10 </h2>
+                    <form class="formular" method="POST" action=" https://sheetdb.io/api/v1/60srckvuop18a">
+                        <label for="nume">Nume Prenume</label>
+                        <input type="text" id="nume" name="nume">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">                     
+                        <input id="submit" type="submit" value="Înregistrare">
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="fb-desktop">
+                <iframe
+                    src="https://www.facebook.com/profile.php?id=100080280609564&mibextid=LQQJ4d"
+                    width="300" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+                <br />
+          </div>
+
+            <div class="fb-mobile">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?id=100080280609564&mibextid=LQQJ4d"
+                    width="300" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <br />
+                <!-- <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmec.gov.md%2F&tabs=timeline&width=350&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=391842158133557"
+                    width="350" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <marquee behavior="alternate" direction="right">
+            <div> Cea mai importantă ştire pe ziua de azi a fost aceea că a răsărit soarele.
+                <br> 
+                <br>Casa de Cultură ©️ 2023
+            </div>
+            
+        </marquee>
+
+    </footer>
+
+
+</body>
+
+</html>
